@@ -4,3 +4,4 @@ An introduction to Markov chains. Really, an introduction to modeling with data.
 
 - [Slides](https://docs.google.com/presentation/d/1pv7VXdnlSlRMamyChgEIB8ybIJsorNRovJuZEoK3ijI/edit?usp=sharing)
 - [Student Problem Set](https://docs.google.com/document/d/1GD--Zhc_LoWVKNMiYpbXeSMwgXf0FVGeLEV-hGFg8tE/edit?usp=sharing)
+- [Transitions Utility](transitions.html)
