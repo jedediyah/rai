@@ -111,10 +111,10 @@ const ready = () => model && model.tokens.length > 1;
 function update(){
   model = build($('#seq').value);
   const n = model.tokens.length;
-  $('#stats').innerHTML = `
-    <div class="stat"><span>Events</span><b>${n}</b></div>
-    <div class="stat"><span>Different events</span><b>${model.symbols.length}</b></div>
-    <div class="stat"><span>Transitions counted</span><b>${Math.max(0, n - 1)}</b></div>`;
+  //$('#stats').innerHTML = `
+  //  <div class="stat"><span>Events</span><b>${n}</b></div>
+  //  <div class="stat"><span>Different events</span><b>${model.symbols.length}</b></div>
+  //  <div class="stat"><span>Transitions counted</span><b>${Math.max(0, n - 1)}</b></div>`;
   if (!ready()){
     const msg = n === 0 ? 'Type a sequence to get started.' : 'Add at least one more event to see what comes next.';
     $('#matrixArea').innerHTML = `<p class="empty">${msg}</p>`;
